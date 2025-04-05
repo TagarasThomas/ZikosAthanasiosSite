@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Κατασκευές Ζήκος Αθανάσιος</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- HEADER -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+  <div class="container">
+    <a class="navbar-brand d-flex flex-column align-items-center text-center" href="#">
+      <span class="text-uppercase small">κατασκευές</span>
+      <span class="fw-bold">Ζήκος Αθανάσιος</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#home">Αρχική</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Ολοκληρωμένα Έργα</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Έργα</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Επικοινωνία</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<header id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+  
+      <div class="carousel-item active hero-slide" style="background-image: url('heroimages/ergo1.jpeg');">
+        <div class="overlay text-center">
+          <h1 class="text-white fw-bold">Ποιότητα & Εμπιστοσύνη</h1>
+          <p class="text-white">Κατασκευές με μεράκι και συνέπεια</p>
+          <a href="#projects" class="btn btn-warning mt-3">Δείτε τα έργα μας</a>
+        </div>
+      </div>
+  
+      <div class="carousel-item hero-slide" style="background-image: url('heroimages/ergo2.jpeg');">
+        <div class="overlay text-center">
+          <h1 class="text-white fw-bold">Χώροι που ξεχωρίζουν</h1>
+          <p class="text-white">Κουζίνες, αυλές, μνημεία και άλλα</p>
+          <a href="#projects" class="btn btn-warning mt-3">Δείτε τα έργα μας</a>
+        </div>
+      </div>
+  
+      <div class="carousel-item hero-slide" style="background-image: url('heroimages/ergo3.jpeg');">
+        <div class="overlay text-center">
+          <h1 class="text-white fw-bold">Επαγγελματισμός</h1>
+          <p class="text-white">Από την ιδέα στην υλοποίηση</p>
+          <a href="#projects" class="btn btn-warning mt-3">Δείτε τα έργα μας</a>
+        </div>
+      </div>
+
+      <div class="carousel-item hero-slide" style="background-image: url('heroimages/ergo4.jpeg');">
+        <div class="overlay text-center">
+          <h1 class="text-white fw-bold">Προσοχή στην Λεπτομέρια</h1>
+          <p class="text-white">Κατασκευές με αντοχή στον χρόνο</p>
+          <a href="#projects" class="btn btn-warning mt-3">Δείτε τα έργα μας</a>
+        </div>
+      </div>
+  
+    </div>
+  </header>
+
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <img src="images/about.jpeg" alt="Σχετικά με εμάς" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="fw-bold mb-3">Λίγα λόγια για εμάς</h2>
+          <p>
+            Η επιχείρηση δραστηριοποιείται εδώ και χρόνια στον χώρο των κατασκευών, 
+            προσφέροντας υπηρεσίες υψηλής ποιότητας με συνέπεια και επαγγελματισμό.
+          </p>
+          <p>
+            Αναλαμβάνουμε έργα κάθε μεγέθους όπως κουζίνες, αυλές, μνημεία, περίφραξεις και γενικές κατασκευές,
+            πάντα με σεβασμό στον πελάτη και τις ανάγκες του.
+          </p>
+          <a href="#projects" class="btn btn-dark mt-3">Δείτε τα έργα μας</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="py-5">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5">Ολοκληρωμένα Έργα</h2>
+      <div class="row g-4">
+  
+        <!-- ΥΠΗΡΕΣΙΑ 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-box text-center shadow p-3 bg-white rounded polaroid">
+            <a href="images/kouzina1.jpeg"
+               class="glightbox"
+               data-gallery="kouzina"
+               data-title="Κουζίνες"
+               data-description="<a href='pages/kouzines.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/kouzina1.jpeg" alt="Κουζίνες" class="img-fluid rounded mb-3">
+              <h5>Κουζίνες</h5>
+            </a>
+  
+            <!-- Απόκρυφες επιπλέον εικόνες για το lightbox -->
+            <a href="images/kouzina2.jpeg"
+               class="glightbox d-none"
+               data-gallery="kouzina"
+               data-title="Κουζίνες"
+               data-description="<a href='pages/kouzines.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/kouzina2.jpeg" alt="Κουζίνες" class="img-fluid rounded mb-3">
+              <h5>Κουζίνες</h5>
+            </a>
+            <a href="images/kouzina3.jpeg"
+               class="glightbox d-none"
+               data-gallery="kouzina"
+               data-title="Κουζίνες"
+               data-description="<a href='pages/kouzines.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/kouzina3.jpeg" alt="Κουζίνες" class="img-fluid rounded mb-3">
+              <h5>Κουζίνες</h5>
+            </a>
+            <a href="images/kouzina4.jpeg"
+               class="glightbox d-none"
+               data-gallery="kouzina"
+               data-title="Κουζίνες"
+               data-description="<a href='pages/kouzines.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/kouzina4.jpeg" alt="Κουζίνες" class="img-fluid rounded mb-3">
+              <h5>Κουζίνες</h5>
+            </a>
+          </div>
+        </div>
+  
+        <!-- ΥΠΗΡΕΣΙΑ 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-box text-center shadow p-3 bg-white rounded polaroid">
+            <a href="images/plakakia1.jpeg"
+               class="glightbox"
+               data-gallery="plakakia"
+               data-title="Πλακάκια"
+               data-description="<a href='pages/plakakia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/plakakia1.jpeg" alt="Πλακάκια" class="img-fluid rounded mb-3">
+              <h5>Πλακάκια</h5>
+            </a>
+            <a href="images/plakakia2.jpeg"
+               class="glightbox d-none"
+               data-gallery="plakakia"
+               data-title="Πλακάκια"
+               data-description="<a href='pages/plakakia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/plakakia2.jpeg" alt="Πλακάκια" class="img-fluid rounded mb-3">
+              <h5>Πλακάκια</h5>
+            </a>
+            <a href="images/plakakia3.jpeg"
+               class="glightbox d-none"
+               data-gallery="plakakia"
+               data-title="Πλακάκια"
+               data-description="<a href='pages/plakakia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/plakakia3.jpeg" alt="Πλακάκια" class="img-fluid rounded mb-3">
+              <h5>Πλακάκια</h5>
+            </a>
+            <a href="images/plakakia4.jpeg"
+               class="glightbox d-none"
+               data-gallery="plakakia"
+               data-title="Πλακάκια"
+               data-description="<a href='pages/plakakia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/plakakia4.jpeg" alt="Πλακάκια" class="img-fluid rounded mb-3">
+              <h5>Πλακάκια</h5>
+            </a>
+            <a href="images/plakakia5.jpeg"
+               class="glightbox d-none"
+               data-gallery="plakakia"
+               data-title="Πλακάκια"
+               data-description="<a href='pages/plakakia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/plakakia5.jpeg" alt="Πλακάκια" class="img-fluid rounded mb-3">
+              <h5>Πλακάκια</h5>
+            </a>
+            <a href="images/plakakia6.jpeg"
+               class="glightbox d-none"
+               data-gallery="plakakia"
+               data-title="Πλακάκια"
+               data-description="<a href='pages/plakakia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/plakakia6.jpeg" alt="Πλακάκια" class="img-fluid rounded mb-3">
+              <h5>Πλακάκια</h5>
+            </a>
+            <a href="images/plakakia7.jpeg"
+               class="glightbox d-none"
+               data-gallery="plakakia"
+               data-title="Πλακάκια"
+               data-description="<a href='pages/plakakia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/plakakia7.jpeg" alt="Πλακάκια" class="img-fluid rounded mb-3">
+              <h5>Πλακάκια</h5>
+            </a><a href="images/plakakia8.jpeg"
+               class="glightbox d-none"
+               data-gallery="plakakia"
+               data-title="Πλακάκια"
+               data-description="<a href='pages/plakakia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/plakakia8.jpeg" alt="Πλακάκια" class="img-fluid rounded mb-3">
+              <h5>Πλακάκια</h5>
+            </a>
+            <a href="images/plakakia9.jpeg"
+               class="glightbox d-none"
+               data-gallery="plakakia"
+               data-title="Πλακάκια"
+               data-description="<a href='pages/plakakia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/plakakia9.jpeg" alt="Πλακάκια" class="img-fluid rounded mb-3">
+              <h5>Πλακάκια</h5>
+            </a>
+          </div>
+        </div>
+  
+        <!-- ΥΠΗΡΕΣΙΑ 3 (Μνημεία) -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-box text-center shadow p-3 bg-white rounded polaroid">
+            <a href="images/mnimia1.jpeg"
+               class="glightbox"
+               data-gallery="mnimeia"
+               data-title="Μνημεία"
+               data-description="<a href='pages/mnimeia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/mnimia1.jpeg" alt="Μνημεία" class="img-fluid rounded mb-3">
+              <h5>Μνημεία</h5>
+            </a>
+            <a href="images/mnimia2.jpeg"
+               class="glightbox d-none"
+               data-gallery="mnimeia"
+               data-title="Μνημεία"
+               data-description="<a href='pages/mnimeia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/mnimia2.jpeg" alt="Μνημεία" class="img-fluid rounded mb-3">
+              <h5>Μνημεία</h5>
+            </a>
+            <a href="images/mnimia3.jpeg"
+               class="glightbox d-none"
+               data-gallery="mnimeia"
+               data-title="Μνημεία"
+               data-description="<a href='pages/mnimeia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/mnimia3.jpeg" alt="Μνημεία" class="img-fluid rounded mb-3">
+              <h5>Μνημεία</h5>
+            </a>
+            <a href="images/mnimia4.jpeg"
+               class="glightbox d-none"
+               data-gallery="mnimeia"
+               data-title="Μνημεία"
+               data-description="<a href='pages/mnimeia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/mnimia5.jpeg" alt="Μνημεία" class="img-fluid rounded mb-3">
+              <h5>Μνημεία</h5>
+            </a>
+            <a href="images/mnimia5.jpeg"
+               class="glightbox d-none"
+               data-gallery="mnimeia"
+               data-title="Μνημεία"
+               data-description="<a href='pages/mnimeia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/mnimia5.jpeg" alt="Μνημεία" class="img-fluid rounded mb-3">
+              <h5>Μνημεία</h5>
+            </a>
+            <a href="images/mnimia6.jpeg"
+               class="glightbox d-none"
+               data-gallery="mnimeia"
+               data-title="Μνημεία"
+               data-description="<a href='pages/mnimeia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/mnimia6.jpeg" alt="Μνημεία" class="img-fluid rounded mb-3">
+              <h5>Μνημεία</h5>
+            </a>
+            <a href="images/mnimia7.jpeg"
+               class="glightbox d-none"
+               data-gallery="mnimeia"
+               data-title="Μνημεία"
+               data-description="<a href='pages/mnimeia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/mnimia7.jpeg" alt="Μνημεία" class="img-fluid rounded mb-3">
+              <h5>Μνημεία</h5>
+            </a>
+            <a href="images/mnimia8.jpeg"
+               class="glightbox d-none"
+               data-gallery="mnimeia"
+               data-title="Μνημεία"
+               data-description="<a href='pages/mnimeia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/mnimia8.jpeg" alt="Μνημεία" class="img-fluid rounded mb-3">
+              <h5>Μνημεία</h5>
+            </a>
+            <a href="images/mnimia9.jpeg"
+               class="glightbox d-none"
+               data-gallery="mnimeia"
+               data-title="Μνημεία"
+               data-description="<a href='pages/mnimeia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/mnimia9.jpeg" alt="Μνημεία" class="img-fluid rounded mb-3">
+              <h5>Μνημεία</h5>
+            </a>
+            <a href="images/mnimia10.jpeg"
+               class="glightbox d-none"
+               data-gallery="mnimeia"
+               data-title="Μνημεία"
+               data-description="<a href='pages/mnimeia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/mnimia10.jpeg" alt="Μνημεία" class="img-fluid rounded mb-3">
+              <h5>Μνημεία</h5>
+            </a>
+            <a href="images/mnimia11.jpeg"
+               class="glightbox d-none"
+               data-gallery="mnimeia"
+               data-title="Μνημεία"
+               data-description="<a href='pages/mnimeia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/mnimia11.jpeg" alt="Μνημεία" class="img-fluid rounded mb-3">
+              <h5>Μνημεία</h5>
+            </a>
+            <a href="images/mnimia12.jpeg"
+               class="glightbox d-none"
+               data-gallery="mnimeia"
+               data-title="Μνημεία"
+               data-description="<a href='pages/mnimeia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/mnimia12.jpeg" alt="Μνημεία" class="img-fluid rounded mb-3">
+              <h5>Μνημεία</h5>
+            </a>
+            <a href="images/mnimia13.jpeg"
+               class="glightbox d-none"
+               data-gallery="mnimeia"
+               data-title="Μνημεία"
+               data-description="<a href='pages/mnimeia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+              <img src="images/mnimia13.jpeg" alt="Μνημεία" class="img-fluid rounded mb-3">
+              <h5>Μνημεία</h5>
+            </a>
+
+          </div>
+        </div>
+  
+        <!-- copy/paste -->
+  
+        <!-- ΥΠΗΡΕΣΙΑ 4 -->
+        <div class="col-md-6 col-lg-4">
+            <div class="service-box text-center shadow p-3 bg-white rounded polaroid">
+            <a href="images/mpania1.jpeg"
+                class="glightbox"
+                data-gallery="mpania"
+                data-title="Μπάνιο"
+                data-description="<a href='pages/kouzines.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+                <img src="images/mpania1.jpeg" alt="Κουζίνες" class="img-fluid rounded mb-3">
+                <h5>Μπάνιο</h5>
+            </a>
+    
+            <!-- Απόκρυφες επιπλέον εικόνες για το lightbox -->
+            <a href="images/mpania2.jpeg"
+                class="glightbox d-none"
+                data-gallery="mpania"
+                data-title="Μπάνιο"
+                data-description="<a href='pages/kouzines.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+                <img src="images/mpania2.jpeg" alt="Κουζίνες" class="img-fluid rounded mb-3">
+                <h5>Μπάνιο</h5>
+            </a>
+            <a href="images/mpania3.jpeg"
+                class="glightbox d-none"
+                data-gallery="mpania"
+                data-title="Μπάνιο"
+                data-description="<a href='pages/kouzines.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+                <img src="images/mpania3.jpeg" alt="Κουζίνες" class="img-fluid rounded mb-3">
+                <h5>Μπάνιο</h5>
+            </a>
+
+            <a href="images/mpania5.jpeg"
+                class="glightbox d-none"
+                data-gallery="mpania"
+                data-title="Μπάνιο"
+                data-description="<a href='pages/kouzines.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+                <img src="images/mpania5.jpeg" alt="Κουζίνες" class="img-fluid rounded mb-3">
+                <h5>Μπάνιο</h5>
+            </a>
+            <a href="images/mpania6.jpeg"
+                class="glightbox d-none"
+                data-gallery="mpania"
+                data-title="Μπάνιο"
+                data-description="<a href='pages/kouzines.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+                <img src="images/mpania6.jpeg" alt="Κουζίνες" class="img-fluid rounded mb-3">
+                <h5>Μπάνιο</h5>
+            </a>
+            <a href="images/mpania7.jpeg"
+                class="glightbox d-none"
+                data-gallery="mpania"
+                data-title="Μπάνιο"
+                data-description="<a href='pages/kouzines.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+                <img src="images/mpania7.jpeg" alt="Κουζίνες" class="img-fluid rounded mb-3">
+                <h5>Μπάνιο</h5>
+            </a>
+            
+            </div>
+        </div>
+    
+        <!-- ΥΠΗΡΕΣΙΑ 5 -->
+        <div class="col-md-6 col-lg-4">
+            <div class="service-box text-center shadow p-3 bg-white rounded polaroid">
+            <a href="images/avles1.jpeg"
+                class="glightbox"
+                data-gallery="avles"
+                data-title="Αυλές"
+                data-description="<a href='pages/plakakia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+                <img src="images/avles1.jpeg" alt="Αυλές" class="img-fluid rounded mb-3">
+                <h5>Αυλές</h5>
+            </a>
+            <a href="images/avles2.jpeg"
+                class="glightbox d-none"
+                data-gallery="avles"
+                data-title="Αυλές"
+                data-description="<a href='pages/plakakia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+                <img src="images/avles2.jpeg" alt="Αυλές" class="img-fluid rounded mb-3">
+                <h5>Αυλές</h5>
+            </a>
+            <a href="images/avles3.jpeg"
+                class="glightbox d-none"
+                data-gallery="avles"
+                data-title="Αυλές"
+                data-description="<a href='pages/plakakia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+                <img src="images/avles3.jpeg" alt="Αυλές" class="img-fluid rounded mb-3">
+                <h5>Αυλές</h5>
+            </a>
+            <a href="images/avles4.jpeg"
+                class="glightbox d-none"
+                data-gallery="avles"
+                data-title="Αυλές"
+                data-description="<a href='pages/plakakia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+                <img src="images/avles4.jpeg" alt="Αυλές" class="img-fluid rounded mb-3">
+                <h5>Αυλές</h5>
+            </a>
+            
+            </div>
+        </div>
+    
+        <!-- ΥΠΗΡΕΣΙΑ 6 (Μνημεία) -->
+        <div class="col-md-6 col-lg-4">
+            <div class="service-box text-center shadow p-3 bg-white rounded polaroid">
+            <a href="images/naoi1.jpeg"
+                class="glightbox"
+                data-gallery="naoi"
+                data-title="Μνημεία"
+                data-description="<a href='pages/mnimeia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+                <img src="images/naoi1.jpeg" alt=Ναοί" class="img-fluid rounded mb-3">
+                <h5>Ναοί</h5>
+            </a>
+    
+            <a href="images/naoi2.jpeg"
+                class="glightbox d-none"
+                data-gallery="naoi"
+                data-title="Ναοί"
+                data-description="<a href='pages/plakakia.html' class='btn btn-warning mt-3'>Δες περισσότερα</a>">
+                <img src="images/naoi2.jpeg" alt="Ναοί" class="img-fluid rounded mb-3">
+                <h5>Ναοί</h5>
+            </a>
+            </div>
+        </div>
+  
+    </div>
+  </section>
+  <!-- Επικοινωνία Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Επικοινωνία</h2>
+        <div class="row text-center">
+            <h4 class="text-center mb-4">Στα Τηλέφωνα:</h4>
+            <!-- Τηλέφωνο -->
+            <div class="col-md-6 mb-4 d-flex justify-content-center align-items-center">
+                <a href="tel:+306975964852" class="service-box text-center shadow p-4 bg-white rounded polaroid">
+                    <img src="images/Phone.svg" alt="Τηλέφωνο" class="img-fluid mb-3" style="max-width: 50px;">
+                    <h5>6975964852</h5>
+                </a>
+            </div>
+            <div class="col-md-6 mb-4 d-flex justify-content-center align-items-center">
+                <a href="tel:+306975964852" class="service-box text-center shadow p-4 bg-white rounded polaroid">
+                    <img src="images/Phone.svg" alt="Τηλέφωνο" class="img-fluid mb-3" style="max-width: 50px;">
+                    <h5>6975964852</h5>
+                </a>
+            </div>
+            <h4 class="text-center mb-4">Στην σελίδα μας στο Facebook</h4>
+            <!-- Facebook -->
+            <div class="col-md-12 mb-4 d-flex justify-content-center align-items-center">
+                <a href="https://www.facebook.com/epixeirisi" target="_blank" class="service-box text-center shadow p-4 bg-white rounded polaroid">
+                    <img src="images/Facebook.svg" alt="Facebook" class="img-fluid mb-3" style="max-width: 50px;">
+                    <h5>Facebook</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-5 pb-3">
+    <div class="container">
+        <!-- Στοιχεία Footer -->
+        <div class="row text-center">
+            <div class="col-md-6">
+                <h5>Στοιχεία Επικοινωνίας</h5>
+                <p>Τηλέφωνο: 6975964852</p>
+            </div>
+            <div class="col-md-6">
+                <h5>Ακολουθήστε μας</h5>
+                <div>
+                    <a href="https://www.facebook.com/epixeirisi" target="_blank">
+                        <img src="images/Facebook.svg" alt="Facebook" style="max-width: 30px; margin-right: 10px;">
+                    </a>
+                    <!-- Μπορείτε να προσθέσετε και άλλα social links όπως Instagram ή Twitter -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center mt-4">
+            <p>&copy; 2025 Ζήκος Αθανάσιος - Όλα τα δικαιώματα κατοχυρωμένα.</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+  
+  
+  
+
+<!-- Bootstrap Bundle & Custom JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- GLightbox -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

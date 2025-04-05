@@ -1,0 +1,289 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-brand span:first-child {
+    font-size: 0.75rem;
+    color: #ccc;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  
+  .navbar-brand span:last-child {
+    font-size: 1.25rem;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* HERO SECTION */
+  .hero-slide {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 20px;
+  }
+  
+  .overlay h1 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+  }
+  
+  .overlay p {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+  }
+  #about h2 {
+    color: #333;
+  }
+  
+  #about p {
+    font-size: 1.05rem;
+    color: #555;
+  }
+.polaroid {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  transform: rotate(-1deg);
+  transition: transform 0.3s ease;
+}
+.polaroid:hover {
+  transform: rotate(0deg) scale(1.03);
+}
+.polaroid img {
+  max-height: 200px;
+  object-fit: cover;
+}
+/* Επικοινωνία Section */
+#contact {
+    background-color: #f8f9fa;
+}
+
+/* Πολαροειδές Στυλ για τα Κουμπιά */
+#contact .polaroid {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    transform: rotate(-1deg);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contact .polaroid:hover {
+    transform: rotate(0deg) scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#contact .polaroid img {
+    max-height: 50px; /* Εικόνα με μέγεθος λογικό */
+    object-fit: cover;
+}
+
+#contact .polaroid h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#contact .service-box {
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    transition: transform 0.3s, box-shadow 0.3s ease;
+}
+
+#contact .service-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#contact .col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact .col-md-6 img {
+    max-width: 70px; /* Ρυθμίστε το μέγεθος της εικόνας */
+    margin-bottom: 20px;
+}
+
+#contact .col-md-6 h5 {
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+/* Επικοινωνία Section */
+#contact {
+    background-color: #f8f9fa;
+    padding-top: 60px; /* Προσθέτει λίγο κενό από πάνω */
+    padding-bottom: 60px; /* Προσθέτει λίγο κενό από κάτω */
+}
+
+#contact h2 {
+    font-size: 2.5rem; /* Μεγαλύτερος τίτλος */
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px; /* Απόσταση από την επόμενη ενότητα */
+}
+
+#contact h4 {
+    font-size: 1.5rem; /* Μεγαλύτερος υπότιτλος */
+    color: #444;
+    margin-bottom: 30px; /* Απόσταση από τα περιεχόμενα */
+}
+
+/* Στυλ για τα τηλέφωνα */
+#contact .service-box {
+    padding: 40px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+#contact .service-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Στυλ για τα τηλεφωνικά κουμπιά */
+#contact .service-box img {
+    max-width: 70px; /* Μπορείς να αυξήσεις το μέγεθος των εικόνων */
+    margin-bottom: 20px;
+}
+
+/* Στυλ για τα τηλέφωνα */
+#contact .service-box h5 {
+    font-size: 1.6rem; /* Μεγαλύτερο μέγεθος για τα νούμερα */
+    font-weight: bold;
+    color: #2C3E50;
+    margin: 0;
+}
+
+/* Στυλ για το Facebook κουμπί */
+#contact .service-box h5 {
+    font-size: 1.4rem; /* Μικρότερο μέγεθος για το Facebook */
+}
+
+#contact .col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact .col-md-6.mb-4 {
+    margin-bottom: 30px;
+}
+
+/* Κεντρική τοποθέτηση του Facebook */
+#contact .row .col-md-6:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Εικόνα Facebook */
+#contact .service-box img {
+    max-width: 60px;
+}
+
+/* Στυλ για τηλέφωνα (πρώτο και δεύτερο) */
+#contact .col-md-6.mb-4:first-child {
+    margin-right: 30px;
+}
+
+/* Κεντρική τοποθέτηση του Facebook */
+#contact .row .col-md-6:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+/* Επικοινωνία Section */
+#contact {
+    background-color: #f8f9fa;
+    padding-top: 60px; /* Προσθέτει λίγο κενό από πάνω */
+    padding-bottom: 60px; /* Προσθέτει λίγο κενό από κάτω */
+}
+
+/* Στυλ για τα κουμπιά (τηλέφωνο, facebook) */
+#contact .service-box {
+    padding: 50px; /* Μεγαλύτερο padding για να μεγαλώσει το κουμπί */
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact .service-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Στυλ για τις εικόνες των κουμπιών */
+#contact .service-box img {
+    max-width: 100px; /* Μεγαλύτερο μέγεθος εικόνας */
+    margin-bottom: 20px;
+}
+
+/* Στυλ για το κείμενο στο κουμπί */
+#contact .service-box h5 {
+    font-size: 1.6rem; /* Μεγαλύτερο μέγεθος κειμένου */
+    font-weight: bold;
+    color: #2C3E50;
+    margin: 0;
+}
+
+/* Ειδική τοποθέτηση για το κουμπί Facebook στο κέντρο */
+#contact .col-md-12.mb-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Στυλ για το Facebook κουμπί */
+#contact .service-box h5 {
+    font-size: 1.6rem; /* Μικρότερο μέγεθος για το Facebook */
+}
+
+/* Στυλ για τα τηλέφωνα */
+#contact .col-md-6.mb-4 {
+    margin-bottom: 30px; /* Απόσταση μεταξύ των κουμπιών */
+}
+
+/* Κεντράρισμα των κουμπιών τηλεφώνου και facebook */
+#contact .col-md-6,
+#contact .col-md-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Στυλ για τον τίτλο της επικοινωνίας */
+#contact h2 {
+    font-size: 2.5rem; /* Μεγαλύτερος τίτλος */
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px; /* Απόσταση από την επόμενη ενότητα */
+}
